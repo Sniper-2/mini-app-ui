@@ -1,0 +1,30 @@
+/* pages/navbar/navbar.wxss */
+.page-banner{height: 500rpx;background-color: greenyellow;padding: 20rpx;color:#fff;padding-top: 100rpx;}
+/*去掉多余的class，直接设置背景色为rgba格式*/
+.page-group{
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  background-color: rgba(46,211,158,0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.page-nav-list{
+  padding:30rpx 0 ;
+  display: table-cell;
+  text-align: center;
+  width: 100%;
+  color: #666;
+}
+.goods-list{
+  height: 500rpx;
+  background-color: #fefefe;
+  padding: 20rpx;
+  color:#777;
+}
+@import '../module/sticky/sticky.wxss';
+.rui-sticky-header{
+  position: relative!important;
+}
